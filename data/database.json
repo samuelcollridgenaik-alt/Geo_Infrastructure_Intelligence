@@ -1,0 +1,902 @@
+{
+  "projects": [
+    {
+      "id": "proj-001",
+      "code": "INFRA-NH-48X",
+      "name": "Western Expressway Elevated Corridor Phase-II",
+      "description": "Six-lane elevated grade-separated corridor with precast segmental box girders and integrated stormwater drainage.",
+      "infrastructureType": "highway_road",
+      "status": "in_progress",
+      "location": {
+        "name": "Western Corridor Ch. 14+200",
+        "district": "Mumbai Suburban",
+        "state": "Maharashtra",
+        "country": "India",
+        "latitude": 19.1136,
+        "longitude": 72.8697,
+        "elevationMeters": 14.5,
+        "address": "Western Express Highway, Goregaon East"
+      },
+      "budget": {
+        "allocated": 485000000,
+        "spent": 312000000,
+        "currency": "INR"
+      },
+      "contractor": "Larsen & Toubro Heavy Civil Infrastructure",
+      "supervisingAgency": "National Highways Authority (NHAI)",
+      "startDate": "2024-03-15",
+      "targetCompletionDate": "2026-11-30",
+      "estimatedEndDate": "2026-12-15",
+      "currentProgressPercent": 67.4,
+      "plannedProgressPercent": 72,
+      "conditionRating": "good",
+      "inspectionCount": 4,
+      "lastInspectionDate": "2026-09-12",
+      "tags": [
+        "elevated_highway",
+        "precast_segments",
+        "smart_corridor"
+      ],
+      "createdAt": "2024-03-01T08:00:00Z",
+      "updatedAt": "2026-09-12T16:30:00Z",
+      "inspections": [
+        {
+          "id": "insp-001-1",
+          "projectId": "proj-001",
+          "inspectionDate": "2024-09-10",
+          "inspectorName": "Dr. R. K. Sharma (Lead Surveyor)",
+          "inspectionType": "routine",
+          "gpsCoordinates": {
+            "lat": 19.1136,
+            "lng": 72.8697
+          },
+          "weatherCondition": "Clear / 29°C",
+          "visualStage": "early_construction",
+          "conditionRating": "good",
+          "estimatedProgressPercent": 18.2,
+          "plannedProgressPercent": 20,
+          "progressDeltaPercent": 18.2,
+          "confidenceScore": 0.89,
+          "provenance": "CALCULATED_ANALYTIC",
+          "notes": "Piling work completed for piers P-1 to P-18. Substructure foundation load tests verified.",
+          "images": [
+            {
+              "id": "img-001-1",
+              "inspectionId": "insp-001-1",
+              "url": "https://images.unsplash.com/photo-1541888946425-d0fbb186156f?auto=format&fit=crop&w=1200&q=80",
+              "caption": "Substructure piling and rebar cage installation",
+              "capturedAt": "2024-09-10T10:15:00Z",
+              "perspective": "ground_level",
+              "detectionResults": {
+                "modelName": "YOLOv11-Infra",
+                "modelVersion": "v11.2.0-pre",
+                "inferenceTimeMs": 42,
+                "provenance": "DEMO_MOCK",
+                "timestamp": "2024-09-10T11:00:00Z",
+                "totalObjects": 5,
+                "detectedClassesCount": {
+                  "excavator": 2,
+                  "truck": 1,
+                  "construction_worker": 2
+                },
+                "boxes": [
+                  {
+                    "id": "b1",
+                    "label": "excavator",
+                    "confidence": 0.94,
+                    "x": 0.12,
+                    "y": 0.45,
+                    "width": 0.28,
+                    "height": 0.35,
+                    "category": "equipment"
+                  },
+                  {
+                    "id": "b2",
+                    "label": "truck",
+                    "confidence": 0.88,
+                    "x": 0.58,
+                    "y": 0.5,
+                    "width": 0.32,
+                    "height": 0.3,
+                    "category": "equipment"
+                  },
+                  {
+                    "id": "b3",
+                    "label": "construction_worker",
+                    "confidence": 0.83,
+                    "x": 0.44,
+                    "y": 0.62,
+                    "width": 0.08,
+                    "height": 0.22,
+                    "category": "safety"
+                  }
+                ]
+              }
+            }
+          ],
+          "createdAt": "2024-09-10T11:00:00Z"
+        },
+        {
+          "id": "insp-001-2",
+          "projectId": "proj-001",
+          "inspectionDate": "2025-05-18",
+          "inspectorName": "Ananya Deshmukh (GIS/QA Analyst)",
+          "inspectionType": "drone_survey",
+          "gpsCoordinates": {
+            "lat": 19.114,
+            "lng": 72.8702
+          },
+          "weatherCondition": "Scattered Clouds / 32°C",
+          "visualStage": "mid_construction",
+          "conditionRating": "good",
+          "estimatedProgressPercent": 43.5,
+          "plannedProgressPercent": 48,
+          "progressDeltaPercent": 25.3,
+          "confidenceScore": 0.91,
+          "provenance": "CALCULATED_ANALYTIC",
+          "notes": "Pier cap casting in progress. Segment launching gantry installed over spans S-4 to S-7.",
+          "images": [
+            {
+              "id": "img-001-2",
+              "inspectionId": "insp-001-2",
+              "url": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?auto=format&fit=crop&w=1200&q=80",
+              "caption": "Drone aerial view of pier cap casting and launching gantry",
+              "capturedAt": "2025-05-18T14:30:00Z",
+              "perspective": "aerial_drone",
+              "detectionResults": {
+                "modelName": "YOLOv11-Infra",
+                "modelVersion": "v11.2.0-pre",
+                "inferenceTimeMs": 38,
+                "provenance": "DEMO_MOCK",
+                "timestamp": "2025-05-18T15:00:00Z",
+                "totalObjects": 6,
+                "detectedClassesCount": {
+                  "crane": 2,
+                  "pier_column": 3,
+                  "truck": 1
+                },
+                "boxes": [
+                  {
+                    "id": "b4",
+                    "label": "crane",
+                    "confidence": 0.96,
+                    "x": 0.22,
+                    "y": 0.15,
+                    "width": 0.35,
+                    "height": 0.65,
+                    "category": "equipment"
+                  },
+                  {
+                    "id": "b5",
+                    "label": "pier_column",
+                    "confidence": 0.91,
+                    "x": 0.6,
+                    "y": 0.4,
+                    "width": 0.25,
+                    "height": 0.48,
+                    "category": "structure"
+                  }
+                ]
+              }
+            }
+          ],
+          "createdAt": "2025-05-18T15:00:00Z"
+        },
+        {
+          "id": "insp-001-3",
+          "projectId": "proj-001",
+          "inspectionDate": "2026-02-04",
+          "inspectorName": "Dr. R. K. Sharma (Lead Surveyor)",
+          "inspectionType": "routine",
+          "gpsCoordinates": {
+            "lat": 19.1136,
+            "lng": 72.8697
+          },
+          "weatherCondition": "Clear / 27°C",
+          "visualStage": "advanced_construction",
+          "conditionRating": "good",
+          "estimatedProgressPercent": 59.8,
+          "plannedProgressPercent": 64,
+          "progressDeltaPercent": 16.3,
+          "confidenceScore": 0.92,
+          "provenance": "CALCULATED_ANALYTIC",
+          "notes": "Precast box girder segments erected across 12 consecutive spans. Pre-stressing tendons tensioned.",
+          "images": [
+            {
+              "id": "img-001-3",
+              "inspectionId": "insp-001-3",
+              "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
+              "caption": "Erected elevated box girder spans ready for crash barrier installation",
+              "capturedAt": "2026-02-04T09:45:00Z",
+              "perspective": "ground_level",
+              "detectionResults": {
+                "modelName": "YOLOv11-Infra",
+                "modelVersion": "v11.2.0-pre",
+                "inferenceTimeMs": 45,
+                "provenance": "DEMO_MOCK",
+                "timestamp": "2026-02-04T10:30:00Z",
+                "totalObjects": 4,
+                "detectedClassesCount": {
+                  "bridge": 1,
+                  "concrete_mixer": 1,
+                  "construction_worker": 2
+                },
+                "boxes": [
+                  {
+                    "id": "b6",
+                    "label": "bridge",
+                    "confidence": 0.95,
+                    "x": 0.05,
+                    "y": 0.2,
+                    "width": 0.9,
+                    "height": 0.5,
+                    "category": "structure"
+                  },
+                  {
+                    "id": "b7",
+                    "label": "concrete_mixer",
+                    "confidence": 0.89,
+                    "x": 0.7,
+                    "y": 0.65,
+                    "width": 0.22,
+                    "height": 0.25,
+                    "category": "equipment"
+                  }
+                ]
+              }
+            }
+          ],
+          "createdAt": "2026-02-04T10:30:00Z"
+        },
+        {
+          "id": "insp-001-4",
+          "projectId": "proj-001",
+          "inspectionDate": "2026-09-12",
+          "inspectorName": "Ananya Deshmukh (GIS/QA Analyst)",
+          "inspectionType": "milestone_verification",
+          "gpsCoordinates": {
+            "lat": 19.1142,
+            "lng": 72.8705
+          },
+          "weatherCondition": "Partly Cloudy / 30°C",
+          "visualStage": "advanced_construction",
+          "conditionRating": "good",
+          "estimatedProgressPercent": 67.4,
+          "plannedProgressPercent": 72,
+          "progressDeltaPercent": 7.6,
+          "confidenceScore": 0.94,
+          "provenance": "CALCULATED_ANALYTIC",
+          "notes": "Deck waterproofing membrane applied. Parapet crash barrier slipforming underway on south carriageway.",
+          "images": [
+            {
+              "id": "img-001-4",
+              "inspectionId": "insp-001-4",
+              "url": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=1200&q=80",
+              "caption": "Corridor deck waterproofing and parapet wall construction",
+              "capturedAt": "2026-09-12T11:20:00Z",
+              "perspective": "ground_level",
+              "detectionResults": {
+                "modelName": "YOLOv11-Infra",
+                "modelVersion": "v11.2.0-pre",
+                "inferenceTimeMs": 40,
+                "provenance": "DEMO_MOCK",
+                "timestamp": "2026-09-12T12:00:00Z",
+                "totalObjects": 5,
+                "detectedClassesCount": {
+                  "road": 1,
+                  "barrier": 2,
+                  "construction_worker": 2
+                },
+                "boxes": [
+                  {
+                    "id": "b8",
+                    "label": "road",
+                    "confidence": 0.94,
+                    "x": 0.1,
+                    "y": 0.4,
+                    "width": 0.8,
+                    "height": 0.45,
+                    "category": "structure"
+                  },
+                  {
+                    "id": "b9",
+                    "label": "barrier",
+                    "confidence": 0.87,
+                    "x": 0.05,
+                    "y": 0.6,
+                    "width": 0.25,
+                    "height": 0.25,
+                    "category": "structure"
+                  }
+                ]
+              }
+            }
+          ],
+          "createdAt": "2026-09-12T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "proj-002",
+      "code": "INFRA-BRG-07Y",
+      "name": "Kaveri River Cable-Stayed Bypass Bridge",
+      "description": "A 1.8 km cable-stayed architectural bypass bridge with twin 120-meter pylons across the Kaveri river basin.",
+      "infrastructureType": "bridge_flyover",
+      "status": "in_progress",
+      "location": {
+        "name": "Kaveri Basin Bypass Km 8+400",
+        "district": "Tiruchirappalli",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "latitude": 10.7905,
+        "longitude": 78.7047,
+        "elevationMeters": 85,
+        "address": "Bypass NH-83 Intersection, Srirangam"
+      },
+      "budget": {
+        "allocated": 320000000,
+        "spent": 245000000,
+        "currency": "INR"
+      },
+      "contractor": "Afcons Infrastructure Ltd",
+      "supervisingAgency": "State Highway Authority",
+      "startDate": "2023-11-01",
+      "targetCompletionDate": "2026-10-31",
+      "estimatedEndDate": "2026-11-20",
+      "currentProgressPercent": 78.5,
+      "plannedProgressPercent": 82,
+      "conditionRating": "good",
+      "inspectionCount": 3,
+      "lastInspectionDate": "2026-08-28",
+      "tags": [
+        "cable_stayed",
+        "river_crossing",
+        "pylon_structure"
+      ],
+      "createdAt": "2023-10-15T09:00:00Z",
+      "updatedAt": "2026-08-28T14:00:00Z",
+      "inspections": [
+        {
+          "id": "insp-002-1",
+          "projectId": "proj-002",
+          "inspectionDate": "2025-01-20",
+          "inspectorName": "S. Ramanathan (Structural Consultant)",
+          "inspectionType": "routine",
+          "gpsCoordinates": {
+            "lat": 10.7905,
+            "lng": 78.7047
+          },
+          "weatherCondition": "Sunny / 31°C",
+          "visualStage": "mid_construction",
+          "conditionRating": "good",
+          "estimatedProgressPercent": 48,
+          "plannedProgressPercent": 52,
+          "progressDeltaPercent": 48,
+          "confidenceScore": 0.9,
+          "provenance": "CALCULATED_ANALYTIC",
+          "notes": "Pylons reach 90m level. Cable anchor boxes positioned inside pylon core.",
+          "images": [
+            {
+              "id": "img-002-1",
+              "inspectionId": "insp-002-1",
+              "url": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=1200&q=80",
+              "caption": "Cable-stayed pylon climbing formwork and river pier caisson",
+              "capturedAt": "2025-01-20T10:00:00Z",
+              "perspective": "ground_level"
+            }
+          ],
+          "createdAt": "2025-01-20T11:00:00Z"
+        },
+        {
+          "id": "insp-002-2",
+          "projectId": "proj-002",
+          "inspectionDate": "2026-08-28",
+          "inspectorName": "S. Ramanathan (Structural Consultant)",
+          "inspectionType": "drone_survey",
+          "gpsCoordinates": {
+            "lat": 10.791,
+            "lng": 78.7052
+          },
+          "weatherCondition": "Clear / 33°C",
+          "visualStage": "advanced_construction",
+          "conditionRating": "good",
+          "estimatedProgressPercent": 78.5,
+          "plannedProgressPercent": 82,
+          "progressDeltaPercent": 30.5,
+          "confidenceScore": 0.93,
+          "provenance": "CALCULATED_ANALYTIC",
+          "notes": "Stay cables installed and tensioned up to pair 14. Deck cantilever closure segment scheduled next month.",
+          "images": [
+            {
+              "id": "img-002-2",
+              "inspectionId": "insp-002-2",
+              "url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
+              "caption": "Stay cable fans anchored to composite steel deck girder",
+              "capturedAt": "2026-08-28T09:15:00Z",
+              "perspective": "aerial_drone"
+            }
+          ],
+          "createdAt": "2026-08-28T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "proj-003",
+      "code": "INFRA-MTR-12B",
+      "name": "Bengaluru Metro Purple Line Extension Subterranean Segment",
+      "description": "Underground twin-bore transit tunnel with 3 subterranean stations, cross-passages, and ballastless track.",
+      "infrastructureType": "metro_rail",
+      "status": "delayed",
+      "location": {
+        "name": "Station 14 to Station 17 Section",
+        "district": "Bengaluru Urban",
+        "state": "Karnataka",
+        "country": "India",
+        "latitude": 12.9716,
+        "longitude": 77.5946,
+        "elevationMeters": 920,
+        "address": "MG Road to Indiranagar Sub-surface Corridor"
+      },
+      "budget": {
+        "allocated": 850000000,
+        "spent": 590000000,
+        "currency": "INR"
+      },
+      "contractor": "ITD Cementation India",
+      "supervisingAgency": "Bangalore Metro Rail Corp (BMRCL)",
+      "startDate": "2023-08-15",
+      "targetCompletionDate": "2026-06-30",
+      "estimatedEndDate": "2027-03-31",
+      "currentProgressPercent": 52.3,
+      "plannedProgressPercent": 78,
+      "conditionRating": "moderate",
+      "inspectionCount": 3,
+      "lastInspectionDate": "2026-09-02",
+      "tags": [
+        "tunnel_boring",
+        "subway_metro",
+        "geotechnical_delay"
+      ],
+      "createdAt": "2023-08-01T08:00:00Z",
+      "updatedAt": "2026-09-02T17:00:00Z",
+      "inspections": [
+        {
+          "id": "insp-003-1",
+          "projectId": "proj-003",
+          "inspectionDate": "2026-09-02",
+          "inspectorName": "K. Muralidharan (Geotechnical Lead)",
+          "inspectionType": "quality_audit",
+          "gpsCoordinates": {
+            "lat": 12.9716,
+            "lng": 77.5946
+          },
+          "weatherCondition": "Overcast / 24°C",
+          "visualStage": "mid_construction",
+          "conditionRating": "moderate",
+          "estimatedProgressPercent": 52.3,
+          "plannedProgressPercent": 78,
+          "progressDeltaPercent": 4.1,
+          "confidenceScore": 0.88,
+          "provenance": "CALCULATED_ANALYTIC",
+          "notes": "Hard granite rock stratum encountered at chainage 4+150. TBM-2 cutterhead refurbishment caused 45-day delay.",
+          "images": [
+            {
+              "id": "img-003-1",
+              "inspectionId": "insp-003-1",
+              "url": "https://images.unsplash.com/photo-1541888946425-d0fbb186156f?auto=format&fit=crop&w=1200&q=80",
+              "caption": "Tunnel portal shaft and precast segment lining rings",
+              "capturedAt": "2026-09-02T13:40:00Z",
+              "perspective": "ground_level"
+            }
+          ],
+          "createdAt": "2026-09-02T14:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "proj-004",
+      "code": "INFRA-DRN-04S",
+      "name": "Smart City Stormwater Drainage & Flood Mitigation Channel",
+      "description": "High-capacity reinforced concrete storm drainage culvert with automated sluice gates and retention basin.",
+      "infrastructureType": "water_drainage",
+      "status": "in_progress",
+      "location": {
+        "name": "East Drainage Basin Outfall",
+        "district": "Ahmedabad",
+        "state": "Gujarat",
+        "country": "India",
+        "latitude": 23.0225,
+        "longitude": 72.5714,
+        "elevationMeters": 53,
+        "address": "Sabarmati Riverfront East Tributary"
+      },
+      "budget": {
+        "allocated": 140000000,
+        "spent": 98000000,
+        "currency": "INR"
+      },
+      "contractor": "Patel Engineering Ltd",
+      "supervisingAgency": "Municipal Corporation Smart City SPV",
+      "startDate": "2024-10-01",
+      "targetCompletionDate": "2026-12-31",
+      "estimatedEndDate": "2026-12-15",
+      "currentProgressPercent": 71,
+      "plannedProgressPercent": 69.5,
+      "conditionRating": "good",
+      "inspectionCount": 2,
+      "lastInspectionDate": "2026-09-18",
+      "tags": [
+        "flood_control",
+        "box_culvert",
+        "sustainable_drainage"
+      ],
+      "createdAt": "2024-09-20T08:00:00Z",
+      "updatedAt": "2026-09-18T15:20:00Z",
+      "inspections": [
+        {
+          "id": "insp-004-1",
+          "projectId": "proj-004",
+          "inspectionDate": "2026-09-18",
+          "inspectorName": "Mehul Trivedi (Civil Inspector)",
+          "inspectionType": "routine",
+          "gpsCoordinates": {
+            "lat": 23.0225,
+            "lng": 72.5714
+          },
+          "weatherCondition": "Clear / 34°C",
+          "visualStage": "advanced_construction",
+          "conditionRating": "good",
+          "estimatedProgressPercent": 71,
+          "plannedProgressPercent": 69.5,
+          "progressDeltaPercent": 12,
+          "confidenceScore": 0.92,
+          "provenance": "CALCULATED_ANALYTIC",
+          "notes": "Cast-in-situ reinforced culvert walls cured. Sluice gate electro-mechanical motors delivered.",
+          "images": [
+            {
+              "id": "img-004-1",
+              "inspectionId": "insp-004-1",
+              "url": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?auto=format&fit=crop&w=1200&q=80",
+              "caption": "Storm drainage channel reinforced concrete floor and side walls",
+              "capturedAt": "2026-09-18T10:30:00Z",
+              "perspective": "ground_level"
+            }
+          ],
+          "createdAt": "2026-09-18T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "proj-005",
+      "code": "INFRA-BLD-99C",
+      "name": "Integrated Multi-Modal Regional Transport Terminal",
+      "description": "Sustainable passenger terminal hub featuring solar rooftop canopy, EV bus charging bays, and automated fare concourses.",
+      "infrastructureType": "urban_building",
+      "status": "in_progress",
+      "location": {
+        "name": "Central Intermodal Junction",
+        "district": "Hyderabad",
+        "state": "Telangana",
+        "country": "India",
+        "latitude": 17.385,
+        "longitude": 78.4867,
+        "elevationMeters": 505,
+        "address": "Outer Ring Road Terminal Zone, Shamshabad"
+      },
+      "budget": {
+        "allocated": 520000000,
+        "spent": 420000000,
+        "currency": "INR"
+      },
+      "contractor": "Shapoorji Pallonji & Co",
+      "supervisingAgency": "Hyderabad Metropolitan Development Authority (HMDA)",
+      "startDate": "2024-01-10",
+      "targetCompletionDate": "2026-11-15",
+      "estimatedEndDate": "2026-11-20",
+      "currentProgressPercent": 84.2,
+      "plannedProgressPercent": 86,
+      "conditionRating": "good",
+      "inspectionCount": 4,
+      "lastInspectionDate": "2026-09-24",
+      "tags": [
+        "green_terminal",
+        "ev_charging",
+        "multi_modal"
+      ],
+      "createdAt": "2024-01-02T09:00:00Z",
+      "updatedAt": "2026-09-24T18:00:00Z",
+      "inspections": [
+        {
+          "id": "insp-005-1",
+          "projectId": "proj-005",
+          "inspectionDate": "2026-09-24",
+          "inspectorName": "Priya Nambiar (Green Building Assessor)",
+          "inspectionType": "milestone_verification",
+          "gpsCoordinates": {
+            "lat": 17.385,
+            "lng": 78.4867
+          },
+          "weatherCondition": "Sunny / 31°C",
+          "visualStage": "finishing_work",
+          "conditionRating": "good",
+          "estimatedProgressPercent": 84.2,
+          "plannedProgressPercent": 86,
+          "progressDeltaPercent": 9.2,
+          "confidenceScore": 0.95,
+          "provenance": "CALCULATED_ANALYTIC",
+          "notes": "Structural steel roofing framework complete. Solar PV panels 70% installed. Interior HVAC ducting undergoing pressure testing.",
+          "images": [
+            {
+              "id": "img-005-1",
+              "inspectionId": "insp-005-1",
+              "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+              "caption": "Terminal facade curtain glazing and exterior canopy structure",
+              "capturedAt": "2026-09-24T14:10:00Z",
+              "perspective": "ground_level"
+            }
+          ],
+          "createdAt": "2026-09-24T15:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "proj-006",
+      "code": "INFRA-ENG-33G",
+      "name": "National Grid 400kV Ultra-High-Voltage Substation",
+      "description": "Gas-insulated substation (GIS) step-down facility with SCADA telemetry and fire suppression for industrial solar park transmission.",
+      "infrastructureType": "energy_grid",
+      "status": "completed",
+      "location": {
+        "name": "Renewable Transmission Corridor Substation 4",
+        "district": "Jodhpur",
+        "state": "Rajasthan",
+        "country": "India",
+        "latitude": 26.2389,
+        "longitude": 73.0243,
+        "elevationMeters": 231,
+        "address": "Bhadla Feeder Junction Km 42"
+      },
+      "budget": {
+        "allocated": 290000000,
+        "spent": 282000000,
+        "currency": "INR"
+      },
+      "contractor": "Power Grid Corporation of India",
+      "supervisingAgency": "Ministry of Power",
+      "startDate": "2023-04-01",
+      "targetCompletionDate": "2025-12-31",
+      "estimatedEndDate": "2025-12-15",
+      "currentProgressPercent": 100,
+      "plannedProgressPercent": 100,
+      "conditionRating": "good",
+      "inspectionCount": 5,
+      "lastInspectionDate": "2026-01-15",
+      "tags": [
+        "high_voltage",
+        "gis_substation",
+        "clean_energy"
+      ],
+      "createdAt": "2023-03-20T08:00:00Z",
+      "updatedAt": "2026-01-15T12:00:00Z",
+      "inspections": [
+        {
+          "id": "insp-006-1",
+          "projectId": "proj-006",
+          "inspectionDate": "2026-01-15",
+          "inspectorName": "Vikramaditya Rathore (Grid Commissioning Engineer)",
+          "inspectionType": "routine",
+          "gpsCoordinates": {
+            "lat": 26.2389,
+            "lng": 73.0243
+          },
+          "weatherCondition": "Clear / 22°C",
+          "visualStage": "completed",
+          "conditionRating": "good",
+          "estimatedProgressPercent": 100,
+          "plannedProgressPercent": 100,
+          "progressDeltaPercent": 2,
+          "confidenceScore": 0.98,
+          "provenance": "CALCULATED_ANALYTIC",
+          "notes": "Final commissioning and commercial operation declaration (COD) achieved. All 400kV bays energized.",
+          "images": [
+            {
+              "id": "img-006-1",
+              "inspectionId": "insp-006-1",
+              "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
+              "caption": "Commissioned GIS switchyard and high-voltage transmission lines",
+              "capturedAt": "2026-01-15T11:00:00Z",
+              "perspective": "ground_level"
+            }
+          ],
+          "createdAt": "2026-01-15T12:00:00Z"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "id": "model-yolo-infra-01",
+      "name": "Ultralytics YOLO Infrastructure Detector",
+      "version": "11.2.0-infra-alpha",
+      "framework": "PyTorch / Ultralytics YOLOv11",
+      "task": "object_detection",
+      "status": "pretrained",
+      "classes": [
+        "excavator",
+        "crane",
+        "truck",
+        "concrete_mixer",
+        "construction_worker",
+        "road",
+        "bridge",
+        "barrier",
+        "pier_column",
+        "drainage",
+        "streetlight",
+        "scaffolding"
+      ],
+      "metrics": {
+        "precision": 0.884,
+        "recall": 0.832,
+        "mAP50": 0.865,
+        "mAP50_95": 0.642
+      },
+      "backboneArchitecture": "CSPDarknet with C3k2 and SPPF blocks",
+      "trainingDatasetName": "MIO-TCD & Synthetic Public Infrastructure Benchmark",
+      "trainingDatasetSize": 14200,
+      "lastUpdated": "2026-08-15",
+      "isRealModelAvailable": false,
+      "notes": "Pre-trained weights initialized on COCO / heavy machinery dataset. Custom head ready for fine-tuning on regional public works imagery."
+    },
+    {
+      "id": "model-resnet-stage-02",
+      "name": "ResNet-50 Construction Stage Classifier",
+      "version": "50-stage-v1",
+      "framework": "PyTorch / Torchvision",
+      "task": "image_classification",
+      "status": "evaluation_pending",
+      "classes": [
+        "early_construction",
+        "mid_construction",
+        "advanced_construction",
+        "finishing_work",
+        "completed"
+      ],
+      "metrics": {
+        "accuracy": 0.892,
+        "precision": 0.881,
+        "recall": 0.875,
+        "f1": 0.878
+      },
+      "backboneArchitecture": "ResNet-50 (He et al.) with Bottleneck Residual Blocks",
+      "trainingDatasetName": "Multi-Stage Infrastructure Survey Dataset (Synthetic)",
+      "trainingDatasetSize": 5800,
+      "lastUpdated": "2026-09-01",
+      "isRealModelAvailable": false,
+      "notes": "Frozen convolutional backbone with adaptive pooling and a 5-class linear classification head. Model weights need custom training before Viva."
+    },
+    {
+      "id": "model-gemini-summary-03",
+      "name": "Gemini Multimodal Inspection Synthesizer",
+      "version": "gemini-3.8-flash",
+      "framework": "@google/genai SDK",
+      "task": "multimodal_summary",
+      "status": "custom_trained",
+      "classes": [
+        "inspection_summary",
+        "risk_flags",
+        "progress_rationale"
+      ],
+      "metrics": {
+        "accuracy": 0.965
+      },
+      "backboneArchitecture": "Google Gemini Flash Generative Multimodal Transformer",
+      "lastUpdated": "2026-09-20",
+      "isRealModelAvailable": true,
+      "notes": "Transforms structured object counts, visual stage labels, and time-series progress deltas into formal audit reports strictly without hallucinating facts."
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-1790691768095-3cce",
+      "timestamp": "2026-09-29T14:22:48.095Z",
+      "action": "PROJECT_DELETED",
+      "entity": "Project",
+      "entityId": "proj-007",
+      "details": "Deleted project \"Academic Test Bridge Expansion\"",
+      "user": "admin@geo-infra.internal"
+    },
+    {
+      "id": "audit-1790691768094-xlgt",
+      "timestamp": "2026-09-29T14:22:48.094Z",
+      "action": "INSPECTION_RECORDED",
+      "entity": "Inspection",
+      "entityId": "insp-proj-007-1",
+      "details": "Inspection recorded for Academic Test Bridge Expansion by Prof. Test Evaluator. Progress estimated at 18%.",
+      "user": "admin@geo-infra.internal"
+    },
+    {
+      "id": "audit-1790691768094-jm2b",
+      "timestamp": "2026-09-29T14:22:48.094Z",
+      "action": "PROJECT_UPDATED",
+      "entity": "Project",
+      "entityId": "proj-007",
+      "details": "Updated project \"Academic Test Bridge Expansion\"",
+      "user": "admin@geo-infra.internal"
+    },
+    {
+      "id": "audit-1790691768093-zyv5",
+      "timestamp": "2026-09-29T14:22:48.093Z",
+      "action": "PROJECT_CREATED",
+      "entity": "Project",
+      "entityId": "proj-007",
+      "details": "Created project \"Academic Test Bridge Expansion\" (INFRA-TEST-99)",
+      "user": "admin@geo-infra.internal"
+    },
+    {
+      "id": "audit-1790691468413-2w09",
+      "timestamp": "2026-09-29T14:17:48.413Z",
+      "action": "PROJECT_DELETED",
+      "entity": "Project",
+      "entityId": "proj-007",
+      "details": "Deleted project \"Academic Test Bridge Expansion\"",
+      "user": "admin@geo-infra.internal"
+    },
+    {
+      "id": "audit-1790691468412-qjka",
+      "timestamp": "2026-09-29T14:17:48.412Z",
+      "action": "INSPECTION_RECORDED",
+      "entity": "Inspection",
+      "entityId": "insp-proj-007-1",
+      "details": "Inspection recorded for Academic Test Bridge Expansion by Prof. Test Evaluator. Progress estimated at 18%.",
+      "user": "admin@geo-infra.internal"
+    },
+    {
+      "id": "audit-1790691468411-0sdo",
+      "timestamp": "2026-09-29T14:17:48.411Z",
+      "action": "PROJECT_UPDATED",
+      "entity": "Project",
+      "entityId": "proj-007",
+      "details": "Updated project \"Academic Test Bridge Expansion\"",
+      "user": "admin@geo-infra.internal"
+    },
+    {
+      "id": "audit-1790691468410-a2s7",
+      "timestamp": "2026-09-29T14:17:48.410Z",
+      "action": "PROJECT_CREATED",
+      "entity": "Project",
+      "entityId": "proj-007",
+      "details": "Created project \"Academic Test Bridge Expansion\" (INFRA-TEST-99)",
+      "user": "admin@geo-infra.internal"
+    },
+    {
+      "id": "audit-001",
+      "timestamp": "2026-09-12T16:30:00Z",
+      "action": "INSPECTION_RECORDED",
+      "entity": "Project",
+      "entityId": "proj-001",
+      "details": "Inspection #4 recorded by Ananya Deshmukh. Estimated progress updated to 67.4%.",
+      "user": "ananya.d@infrastructure.gov"
+    },
+    {
+      "id": "audit-002",
+      "timestamp": "2026-09-18T15:20:00Z",
+      "action": "CV_INSPECTION_ANALYTICS",
+      "entity": "InspectionImage",
+      "entityId": "img-004-1",
+      "details": "Computer vision pipeline analyzed 1 image: detected 1 road, 2 barriers, 2 workers. Progress estimated at 71.0%.",
+      "user": "system_cv_service"
+    },
+    {
+      "id": "audit-003",
+      "timestamp": "2026-09-24T18:00:00Z",
+      "action": "STATUS_VERIFIED",
+      "entity": "Project",
+      "entityId": "proj-005",
+      "details": "Milestone verification completed for Integrated Multi-Modal Terminal. Progress stands at 84.2%.",
+      "user": "priya.n@hmda.gov"
+    }
+  ],
+  "version": "1.0.0-academic",
+  "lastUpdated": "2026-09-29T14:22:48.095Z"
+}

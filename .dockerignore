@@ -1,0 +1,9 @@
+node_modules
+dist
+.git
+.env
+data/audit/*.zip
+data/audit/*.tar.gz
+data/raw
+coverage
+*.log

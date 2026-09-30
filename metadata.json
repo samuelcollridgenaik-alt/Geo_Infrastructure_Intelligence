@@ -1,0 +1,6 @@
+{
+  "name": "GEO INFRASTRUCTURE INTELLIGENCE",
+  "description": "Geo-Spatial Data Visualization and Convolutional Vision Framework for Automated Monitoring of Public Infrastructure Progress",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

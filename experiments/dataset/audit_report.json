@@ -1,0 +1,105 @@
+{
+  "dataset_name": "Outerview/construction-infrastructure-change",
+  "license": "CC-BY-4.0",
+  "total_metadata_records": 55801,
+  "unique_metadata_filenames": 55801,
+  "duplicate_metadata_records": 0,
+  "packaged_image_files": 100,
+  "packaged_corrupt_files": 0,
+  "packaged_images_matched_to_metadata": 100,
+  "annotation_format": "Feature-level categorical tag (No bounding boxes)",
+  "fields": [
+    "filename",
+    "image_folder",
+    "date",
+    "country",
+    "state",
+    "city",
+    "feature",
+    "latitude",
+    "longitude",
+    "source"
+  ],
+  "class_distribution_overall": {
+    "Construction Site": 12000,
+    "Roadwork": 12000,
+    "Crane": 7983,
+    "Excavator": 3764,
+    "Scaffolding": 54,
+    "Pothole": 20000
+  },
+  "class_distribution_packaged_sample": {
+    "Construction Site": 100
+  },
+  "geographic_coverage": {
+    "valid_coordinate_records": 55801,
+    "invalid_coordinate_records": 0,
+    "latitude_bounds": [
+      -54.801912,
+      69.47953
+    ],
+    "longitude_bounds": [
+      -173.24184,
+      153.456871
+    ],
+    "top_countries": {
+      "United States": 49096,
+      "Germany": 1825,
+      "France": 851,
+      "Belgium": 717,
+      "Canada": 638
+    },
+    "top_states": {
+      "Florida": 6854,
+      "Texas": 6661,
+      "California": 6478,
+      "New York": 6090,
+      "Illinois": 4461
+    },
+    "top_cities": {
+      "Philadelphia": 3253,
+      "New York City": 2660,
+      "Austin": 1991,
+      "Chicago": 1835,
+      "Jacksonville": 1770
+    }
+  },
+  "temporal_coverage": {
+    "year_distribution": {
+      "1970": 1,
+      "2000": 1,
+      "2003": 1,
+      "2004": 1,
+      "2007": 1,
+      "2008": 2,
+      "2009": 4,
+      "2010": 2,
+      "2011": 5,
+      "2012": 22,
+      "2013": 30,
+      "2014": 1931,
+      "2015": 1714,
+      "2016": 2917,
+      "2017": 6514,
+      "2018": 14633,
+      "2019": 5641,
+      "2020": 4051,
+      "2021": 3470,
+      "2022": 1977,
+      "2023": 4450,
+      "2024": 3322,
+      "2025": 3109,
+      "2026": 2002
+    }
+  },
+  "missing_fields": {
+    "city": 31540,
+    "country": 334,
+    "state": 1272
+  },
+  "suitability": {
+    "gis_analytics": "HIGH - 55,801 WGS-84 coordinate points with timestamps and municipal labels.",
+    "image_classification": "HIGH (Scene Level) - 6 infrastructure classes (Construction Site, Roadwork, Crane, Excavator, Scaffolding, Pothole).",
+    "object_detection_yolo": "INSUFFICIENT WITHOUT BOUNDING BOXES - Dataset contains whole-image tags without spatial bounding box coordinates [x, y, w, h]."
+  }
+}

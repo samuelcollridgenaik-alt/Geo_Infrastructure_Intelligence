@@ -1,0 +1,27 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.pt
+*.pth
+
+# Large binary archives downloaded during experiments
+data/audit/*.zip
+data/audit/*.tar.gz
+data/raw/
+
